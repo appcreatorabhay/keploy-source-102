@@ -84,6 +84,7 @@ Body
 Response
 
 
+
 {
   "_id": "60c3faad983bc90320aa1293",
   "name": "Abhay Rathore",
@@ -93,6 +94,7 @@ Response
 
 
 ❌ DELETE - Remove User by ID
+
 Request
 
 
