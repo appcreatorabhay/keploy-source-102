@@ -22,10 +22,6 @@ This is a full-stack CRUD (Create, Read, Update, Delete) application built using
 📤 Sample API Requests & Responses
 ✅ POST - Create a New User
 Request
-
-http
-Copy
-Edit
 POST /api/users
 Content-Type: application/json
 Body
@@ -40,27 +36,23 @@ Edit
 }
 Response
 
-json
-Copy
-Edit
 {
   "_id": "60c3faad983bc90320aa1293",
   "name": "Abhay",
   "email": "abhay@example.com",
   "age": 25
 }
+
+
+
 📥 GET - Fetch All Users
 Request
 
-http
-Copy
-Edit
+
 GET /api/users
 Response
 
-json
-Copy
-Edit
+
 [
   {
     "_id": "60c3faad983bc90320aa1293",
@@ -78,16 +70,12 @@ Edit
 ✏️ PUT - Update User by ID
 Request
 
-http
-Copy
-Edit
+
 PUT /api/users/60c3faad983bc90320aa1293
 Content-Type: application/json
 Body
 
-json
-Copy
-Edit
+
 {
   "name": "Abhay Rathore",
   "email": "abhayr@example.com",
@@ -95,9 +83,7 @@ Edit
 }
 Response
 
-json
-Copy
-Edit
+
 {
   "_id": "60c3faad983bc90320aa1293",
   "name": "Abhay Rathore",
