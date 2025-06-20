@@ -27,14 +27,12 @@ POST /api/users
 Content-Type: application/json
 Body
 
-json
-Copy
-Edit
 {
   "name": "Abhay",
   "email": "abhay@example.com",
   "age": 25
 }
+
 Response
 
 {
