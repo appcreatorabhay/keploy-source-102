@@ -22,6 +22,7 @@ This is a full-stack CRUD (Create, Read, Update, Delete) application built using
 📤 Sample API Requests & Responses
 ✅ POST - Create a New User
 Request
+
 POST /api/users
 Content-Type: application/json
 Body
@@ -47,8 +48,6 @@ Response
 
 📥 GET - Fetch All Users
 Request
-
-
 GET /api/users
 Response
 
