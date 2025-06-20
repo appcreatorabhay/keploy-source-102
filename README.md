@@ -80,6 +80,7 @@ Body
   "email": "abhayr@example.com",
   "age": 26
 }
+
 Response
 
 
@@ -94,15 +95,11 @@ Response
 ❌ DELETE - Remove User by ID
 Request
 
-http
-Copy
-Edit
+
 DELETE /api/users/60c3faad983bc90320aa1293
 Response
 
-json
-Copy
-Edit
+
 {
   "message": "User deleted successfully"
 }
