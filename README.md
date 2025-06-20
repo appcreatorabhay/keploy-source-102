@@ -19,17 +19,27 @@ This is a full-stack CRUD (Create, Read, Update, Delete) application built using
 | PUT    | `/api/users/:id`     | Update user by ID         |
 | DELETE | `/api/users/:id`     | Delete user by ID         |
 
-### Sample Request (POST)
-```json
+📤 Sample API Requests & Responses
+✅ POST - Create a New User
+Request
+
+http
+Copy
+Edit
 POST /api/users
 Content-Type: application/json
+Body
 
+json
+Copy
+Edit
 {
   "name": "Abhay",
   "email": "abhay@example.com",
   "age": 25
 }
-Sample Response
+Response
+
 json
 Copy
 Edit
@@ -38,4 +48,74 @@ Edit
   "name": "Abhay",
   "email": "abhay@example.com",
   "age": 25
+}
+📥 GET - Fetch All Users
+Request
+
+http
+Copy
+Edit
+GET /api/users
+Response
+
+json
+Copy
+Edit
+[
+  {
+    "_id": "60c3faad983bc90320aa1293",
+    "name": "Abhay",
+    "email": "abhay@example.com",
+    "age": 25
+  },
+  {
+    "_id": "60c3fabd983bc90320aa1294",
+    "name": "John",
+    "email": "john@example.com",
+    "age": 30
+  }
+]
+✏️ PUT - Update User by ID
+Request
+
+http
+Copy
+Edit
+PUT /api/users/60c3faad983bc90320aa1293
+Content-Type: application/json
+Body
+
+json
+Copy
+Edit
+{
+  "name": "Abhay Rathore",
+  "email": "abhayr@example.com",
+  "age": 26
+}
+Response
+
+json
+Copy
+Edit
+{
+  "_id": "60c3faad983bc90320aa1293",
+  "name": "Abhay Rathore",
+  "email": "abhayr@example.com",
+  "age": 26
+}
+❌ DELETE - Remove User by ID
+Request
+
+http
+Copy
+Edit
+DELETE /api/users/60c3faad983bc90320aa1293
+Response
+
+json
+Copy
+Edit
+{
+  "message": "User deleted successfully"
 }
