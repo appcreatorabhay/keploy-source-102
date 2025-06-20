@@ -99,6 +99,7 @@ Request
 
 
 DELETE /api/users/60c3faad983bc90320aa1293
+
 Response
 
 
