@@ -67,6 +67,8 @@ Response
     "age": 30
   }
 ]
+
+
 ✏️ PUT - Update User by ID
 Request
 
@@ -90,6 +92,8 @@ Response
   "email": "abhayr@example.com",
   "age": 26
 }
+
+
 ❌ DELETE - Remove User by ID
 Request
 
